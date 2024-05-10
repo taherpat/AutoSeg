@@ -1,0 +1,13 @@
+accelerate
+diffusers
+invisible_watermark
+torch
+transformers
+xformers
+gradio
+torchvision
+numpy
+opencv-python
+Pillow
+transformers
+git+https://github.com/facebookresearch/segment-anything.git
