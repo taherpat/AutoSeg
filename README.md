@@ -21,7 +21,7 @@ Before you begin, ensure you have Python installed on your system. This project 
 
 First, clone the repository to your local machine. Open your terminal and run the following command:
 
-```python
+```bash
 git clone [https://github.com/taherpat/AutoSeg.git](https://github.com/taherpat/AutoSeg.git)
 cd AutoSeg
 ```
@@ -29,7 +29,7 @@ cd AutoSeg
 2. Set Up a Virtual Environment (Optional)
 It's a good practice to use a virtual environment for Python projects. This keeps your dependencies organized and isolated. To set up a virtual environment, run:
 
-```python
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate
 ```
@@ -37,14 +37,14 @@ source venv/bin/activate  # On Windows use venv\Scripts\activate
 3. Install Required Packages
 Install all required packages using the requirements.txt file:
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
 4. Download Model Checkpoints
 The application requires specific model checkpoints to function. Download these files using the following commands:
 
-```pythonh
+```bash
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
@@ -55,7 +55,7 @@ Please ensure these files are placed in the directory expected by the applicatio
 5. Running the Application
 With the dependencies installed and model checkpoints in place, you're ready to run the application:
 
-```python
+```bash
 python app.py
 ```
 ##Usage Tips
